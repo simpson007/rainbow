@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rainbow</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .rainbow div {
+            overflow: hidden;
+        }
+        .rainbow {
+            height: 200px;
+            overflow: hidden;
+        }
+        .rainbow > div {
+            background: rgb(255, 0, 0);
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+        }
+        .rainbow > div > div {
+            background: rgb(255, 165, 0);
+            height: 380px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .rainbow > div > div > div {
+            background: rgb(255, 255, 0);
+            height: 360px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .rainbow > div > div > div > div {
+            background: rgb(0, 255, 0);
+            height: 340px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .rainbow > div > div > div > div > div {
+            background: rgb(0, 127, 255);
+            height: 320px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .rainbow > div > div > div > div > div > div {
+            background: rgb(0, 0, 255);
+            height: 300px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .rainbow > div > div > div > div > div > div > div {
+            background: rgb(139, 0, 255);
+            height: 280px;
+            margin: 10px;
+            border-radius: 50%;
+        }    
+        .rainbow > div > div > div > div > div > div > div > div{
+            background: rgb(255, 255, 255);
+            height: 260px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="rainbow">
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div></div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
